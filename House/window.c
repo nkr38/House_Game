@@ -158,7 +158,7 @@ void window_toggle (int *state, char *house, int choice)
   window_update(state, house, choice_x, choice_y); */
 
   /* Step 3: Rewrite this function! (for multi-window toggle) */
-  /* This is bad code I know :( */
+  /* This is bad code I know, could be rewritten for effeciency but I was busy*/
   if (choice_x == 0 && choice_y == 0)
   {
     window_update(state, house, choice_x, choice_y);
